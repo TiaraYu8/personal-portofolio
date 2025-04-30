@@ -16,7 +16,7 @@ const Navbar = () => {
         </Link>
         <div className="relative">
           <Image
-            src="/personal-portofolio/Saya1.JPG"
+            src="/saya1.JPG"
             alt="logo"
             width={40}
             height={40}

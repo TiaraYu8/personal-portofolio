@@ -12,7 +12,7 @@ const ProjectCard = ({ image, title, text, sourceCodeLink }: Props) => {
   return (
     <div className="w-[350px] h-[450px] bg-gray-900 rounded-lg overflow-hidden flex flex-col">
       <div
-        style={{ backgroundImage: `url(/${image})` }}
+        style={{ backgroundImage: `url(${image})` }}
         className="w-full h-[50%] bg-cover bg-center bg-no-repeat"
       ></div>
 
