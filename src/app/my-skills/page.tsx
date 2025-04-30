@@ -7,7 +7,7 @@ import Skill from "@/components/Skill"
 const Page = () => {
   return (
     <div
-      style={{ backgroundImage: "url(/personal-portofolio/bg1.jpg)" }}
+      style={{ backgroundImage: "url(/bg1.jpg)" }}
       className="min-h-screen w-full flex items-center justify-center bg-cover bg-center py-40 px-4"
     >
       <div className="flex flex-col max-w-5xl w-full text-center items-center">

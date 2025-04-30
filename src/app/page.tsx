@@ -10,12 +10,12 @@ export default function Home() {
       {/* Background + Layout */}
       <div
         className="flex flex-col md:flex-row items-center w-full h-full bg-cover bg-center"
-        style={{ backgroundImage: "url(/personal-portofolio/bg1.jpg)" }}
+        style={{ backgroundImage: "url(/bg1.jpg)" }}
       >
         {/* Foto untuk Mobile */}
         <div className="flex md:hidden justify-center mt-40">
           <Image
-            src="/personal-portofolio/foto.png"
+            src="/foto.png"
             alt="MyPhoto"
             height={200}
             width={200}
@@ -68,7 +68,7 @@ export default function Home() {
       
       <div className="hidden md:flex absolute right-80 bottom-60 translate-x-[-50%] mb-10">
         <Image
-          src="/personal-portofolio/foto.png"
+          src="/foto.png"
           alt="MyPhoto"
           width={400}
           height={400}

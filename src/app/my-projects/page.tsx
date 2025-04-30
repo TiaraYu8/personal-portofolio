@@ -7,7 +7,7 @@ import React from "react";
 const Page = () => {
   return (
     <div
-      style={{ backgroundImage: "url(/personal-portofolio/bg1.jpg)" }}
+      style={{ backgroundImage: "url(/bg1.jpg)" }}
       className="min-h-screen bg-cover bg-center"
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full max-w-[90%] px-5 py-30 mx-auto justify-items-center">
