@@ -49,9 +49,6 @@ jobs:
       - name: Build Next.js app
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
-      - name: Export static site
-        run: ${{ steps.detect-package-manager.outputs.runner }} next export
-
       - name: Add .nojekyll file
         run: touch out/.nojekyll
 
