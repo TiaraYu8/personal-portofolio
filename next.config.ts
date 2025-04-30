@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
-  basePath: '/personal-portofolio',
-  assetPrefix: '/personal-portofolio/',
+  // pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
+  // basePath: '/personal-portofolio',
+  // assetPrefix: '/personal-portofolio/',
+  reactStrictMode: true,
   images: {
     unoptimized: true,
   },
