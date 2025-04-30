@@ -4,35 +4,35 @@ import {FaInstagram, FaFacebook, FaDiscord} from "react-icons/fa";
 export const SkillData = [
   {
     name: "Problem Solving",
-    Image: "/probsol.svg",
+    Image: "/personal-portofolio/probsol.svg",
     width: 80,
     height: 80,
     level:3,
   },
   {
     name: "Public Speaking",
-    Image: "/pubspeak.svg",
+    Image: "/personal-portofolio/pubspeak.svg",
     width: 80,
     height: 80,
     level:3.5,
   },
   {
     name: "Spring Boot",
-    Image: "/spring.svg",
+    Image: "/personal-portofolio/spring.svg",
     width: 80,
     height: 80,
     level:4,
   },
   {
     name: "Database",
-    Image: "/database.svg",
+    Image: "/personal-portofolio/database.svg",
     width: 80,
     height:  30,
     level:3,
   },
   {
     name: "NestJS",
-    Image: "/nestjs.svg",
+    Image: "/personal-portofolio/nestjs.svg",
     width: 80,
     height: 80,
     level:3,
@@ -42,17 +42,17 @@ export const SkillData = [
 export const Socials = [
   {
     name: "Linkedin",
-    src:"/linkedin.svg",
+    src:"/personal-portofolio/linkedin.svg",
     href:"https://www.linkedin.com/in/tiarayu/",
   },
   {
     name: "Github",
-    src:"/github.svg",
+    src:"/personal-portofolio/github.svg",
     href:"https://github.com/TiaraYu8",
   },
   {
     name: "Instagram",
-    icon: "/instagram.svg",
+    icon: "/personal-portofolio/instagram.svg",
   },
 ];
 
@@ -60,25 +60,25 @@ export const Projects = [
   {
     title: "HonesTest Application",
     text: "The application is developed for computer-based assessments with integrated visual-based proctoring.Utilizing Kanban Framework, application has been implemented utilizing NestJS, NextJS, ElectronJS and MediaPipe.",
-    src: "/project1.png",
+    src: "/personal-portofolio/project1.png",
     sourceCodeLink: "#!", // Link GitHub atau sumber kode lainnya
   },
   {
     title: "Campus Admission Website",
     text: "This website is built for providing all information about student admission of Institut Teknologi Del. Collaborate with scrum team to Implement the CRUD’s logic into code using Laravel Framework. ",
-    src: "/project2.png",
+    src: "/personal-portofolio/project2.png",
     sourceCodeLink: "#!", // Link GitHub atau sumber kode lainnya
   },
   {
     title: "Faculty Work Plan and Evaluation Application",
     text: "This application facilitates the submission and management of faculty work plans and performance evaluations. Developed in microservices utilizing Laravel",
-    src: "/pro.png",
+    src: "/personal-portofolio/pro.png",
     sourceCodeLink: "#!", // Link GitHub atau sumber kode lainnya
   },
   {
     title: "Del Attandace System",
     text: "The application is developed for helping managing the data Attendance and digitalize the recording Attendance. Implemented  the design to the GUI using Java programming language.",
-    src: "/project0.png",
+    src: "/personal-portofolio/project0.png",
     sourceCodeLink: "#!", // Link GitHub atau sumber kode lainnya
   },
 ];
